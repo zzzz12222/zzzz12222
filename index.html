@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>盧冠蓁 - 個人履歷網站</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header & nav: 頂部固定導覽列 -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">盧冠蓁</div>
+      <ul class="nav-links">
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#skills">專長技能</a></li>
+        <li><a href="#experience">個人經歷</a></li>
+        <li><a href="#contact">聯絡資訊</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Section 1: 首頁  -->
+    <section id="home" class="page-section hero-section">
+      <div class="container hero-container">
+        <div class="hero-text animate-fade-up">
+          <span class="hero-badge">ZH</span>
+          <h1 class="my-name">你好，我是盧冠蓁</h1>
+          <h3 class="my-dept">中原大學 資訊管理學系</h3>
+          <blockquote class="slogan">「將繁雜化為條理，用細節成就專業。」</blockquote>
+          <div class="about-action-btns">
+            <a href="#about" class="btn btn-primary">認識更多關於我 &darr;</a>
+            <a href="#contact" class="btn btn-outline">聯絡資訊</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap animate-fade-up">
+          <img src="image/me.jpg" alt="盧冠蓁個人照片" class="profile-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: 關於我 -->
+    <section id="about" class="page-section about-section">
+      <div class="container">
+        <h2 class="section-title">關於我</h2>
+        
+        <div class="about-grid">
+          <!-- 左欄：自我介紹與特質標籤 -->
+          <div class="about-left">
+            <h3 class="about-subtitle">細心規劃，讓每一份資料都具備清晰價值</h3>
+            <p class="bio">
+              目前就讀於中原大學資訊管理學系，平時喜愛條理分明的版面規劃，擅長將繁複瑣碎的行政、數據與簡報資料轉化為結構清晰的視覺格式。
+            </p>
+            <p class="bio">
+              具備良好的耐心與跨工具整合能力，多次參與國際發明展英文發表，持續關注資訊管理與數位工具的實務應用。
+            </p>
+
+            <!-- 個人特質標籤 -->
+            <div class="personal-tags">
+              <span class="tag-badge"># 條理清晰</span>
+              <span class="tag-badge"># 檔案數位化管理</span>
+              <span class="tag-badge"># 簡報視覺設計</span>
+              <span class="tag-badge"># 團隊協作整合</span>
+            </div>
+          </div>
+
+          <!-- 右欄：即時狀態與個人檔案卡 -->
+          <aside class="about-right status-card">
+            <div class="status-indicator">
+              <span class="dot-online"></span>
+              <span>積極尋找實習與專案實作機會</span>
+            </div>
+            
+            <div class="info-list">
+              <div class="info-row">
+                <span class="info-label">🎓 就讀學系</span>
+                <span class="info-value">中原大學 資訊管理學系</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">💼 專業領域</span>
+                <span class="info-value">資訊管理、辦公數位化、視覺簡報</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">🌐 外語能力</span>
+                <span class="info-value">PVQC 國際英文認證、展場英語解說</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">🎧 休閒興趣</span>
+                <span class="info-value">R&B 音樂、K-POP</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3: 專長技能 (動態圓環與流光進度條) -->
+    <section id="skills" class="page-section skills-section">
+      <div class="container">
+        <h2 class="section-title">專長技能</h2>
+        
+        <!-- 5  CSS 圓環進度條 -->
+        <div class="circle-group">
+          <div class="circle-card">
+            <div class="circle-ring" style="--percent: 85%;"><span>85%</span></div>
+            <h4>PowerPoint</h4>
+          </div>
+          <div class="circle-card">
+            <div class="circle-ring" style="--percent: 80%;"><span>80%</span></div>
+            <h4>Excel</h4>
+          </div>
+          <div class="circle-card">
+            <div class="circle-ring" style="--percent: 85%;"><span>85%</span></div>
+            <h4>Word</h4>
+          </div>
+          <div class="circle-card">
+            <div class="circle-ring" style="--percent: 50%;"><span>50%</span></div>
+            <h4>HTML / CSS</h4>
+          </div>
+          <div class="circle-card">
+            <div class="circle-ring" style="--percent: 50%;"><span>50%</span></div>
+            <h4>Python</h4>
+          </div>
+        </div>
+
+        <!-- 3 組動態流光水平長條進度條 -->
+        <div class="bar-group">
+          <div class="bar-item">
+            <div class="bar-label"><span>簡報視覺設計</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width: 85%;"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-label"><span>試算表數據分析</span><span>75%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width: 75%;"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-label"><span>行政文書排版</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width: 80%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 4: 個人經歷 -->
+    <section id="experience" class="page-section exp-section">
+      <div class="container">
+        <h2 class="section-title">個人經歷</h2>
+
+        <div class="exp-list">
+          <!-- 經歷卡片 1：馬來西亞國際發明展 -->
+          <article class="exp-card">
+            <a href="#zoom1" class="exp-img-box" title="點擊放大查看">              
+              <img src="image/exp1.jpg" alt="馬來西亞國際發明展佐證" class="exp-img">
+            </a>
+            <div class="exp-info">
+              <h3>馬來西亞國際發明展</h3>
+              <span class="exp-tag">團隊作品解說員</span>
+              <p>擔任團隊作品解說員，負責以英語向國際評審與各國選手介紹創意作品的設計理念。一開始因為語言溝通而感到緊張，但在不斷實戰中克服了語言障礙。這次經驗大幅提升了我的臨場膽識與聆聽技巧，也深刻體會到團隊分工與責任心的重要性。</p>
+              <a href="image/exp2.jpg" target="_blank" class="proof-link">檢視佐證資料 &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 經歷卡片 2：韓國世界發明創新競賽 -->
+          <article class="exp-card">
+            <a href="#zoom2" class="exp-img-box" title="點擊放大查看">              
+              <img src="image/exp3.jpg" alt="韓國世界發明創新競賽佐證" class="exp-img">
+            </a>
+            <div class="exp-info">
+              <h3>韓國世界發明創新競賽</h3>
+              <span class="exp-tag">產品展示規劃與發表者</span>
+              <p>擔任核心參展與產品展示規劃者，吸取前面一次參展經驗，在賽前優化了產品說明架構並精簡英語介紹詞，突顯作品的實用與創新亮點。透過與各國專家交流，我學會如何精準掌握觀眾需求並快速傳達核心價值，累積了更成熟的國際發表與應變能力。</p>
+              <a href="image/exp4.jpg" target="_blank" class="proof-link">檢視佐證資料 &rarr;</a>
+              <a href="image/exp5.jpg" target="_blank" class="proof-link">檢視佐證資料 &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 經歷卡片 3：台中市政府暑期工讀 -->
+          <article class="exp-card">
+            <a href="#zoom3" class="exp-img-box" title="點擊放大查看">              
+              <img src="image/exp6.jpg" alt="臺中市政府暑期工讀佐證" class="exp-img">
+            </a>
+            <div class="exp-info">
+              <h3>臺中市政府 暑期工讀</h3>
+              <span class="exp-tag">工讀實習生</span>
+              <p>擔任行政課與資料課暑期實習生，負責協助檔案頁碼清查、門牌整編資料整理。不僅熟悉了公務行政運作流程，更培養出嚴謹細心、有條理的結構化資料管理能力。</p>
+              <a href="image/exp7.jpg" target="_blank" class="proof-link">檢視佐證資料 &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 經歷卡片 4：112年資訊月商用簡報技巧組 -->
+          <article class="exp-card">
+            <a href="#zoom4" class="exp-img-box" title="點擊放大查看">              
+              <img src="image/exp8.jpg" alt="112年資訊月商用簡報技巧組佐證" class="exp-img">
+            </a>
+            <div class="exp-info">
+              <h3>112年資訊月 商用簡報技巧組</h3>
+              <span class="exp-tag">全國團體第一名 競賽團隊成員</span>
+              <p>擔任競賽團隊簡報製作與技巧應用成員，賽前投入大量時間鑽研 PowerPoint 進階功能與版面排版訓練。面臨比賽限時高壓環境，成功將平時累積的知識儲備轉化為直覺實作，最終與隊友齊心榮獲全國團體第一，大幅提升了我的軟體專業度與資訊領域深造信心。</p>
+              <a href="image/exp9.jpg" target="_blank" class="proof-link">檢視佐證資料 &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 專業證照與榮譽記錄 -->
+    <section id="awards" class="page-section awards-section">
+      <div class="container">
+        <h2 class="section-title">專業證照與榮譽記錄</h2>
+        <div class="awards-grid">
+          
+          <div class="award-item">
+            <span class="award-icon">🏅</span>
+            <div>
+              <h4>勞動部 電腦軟體應用 乙級技術士</h4>
+              <p>具備進階文書整合、資料庫應用與系統操作之國家級專業認證</p>
+            </div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-icon">💻</span>
+            <div>
+              <h4>TQC-OA 辦公軟體應用進階系列認證</h4>
+              <p>取得 Word 進階級、PowerPoint 進階級與 Excel 實用級完整辦公能力證明</p>
+            </div>
+          </div>
+
+          <div class="award-item">
+            <span class="award-icon">📊</span>
+            <div>
+              <h4>會計事務資訊、人工記帳丙級 ＆ 電腦會計 IFRS 進階級</h4>
+              <p>熟悉資訊化帳務處理、商業數據邏輯與財務報表結構化管理</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: 聯絡資訊 -->
+    <section id="contact" class="page-section contact-section">
+      <div class="container text-center">
+        <h2 class="section-title text-white">聯絡資訊</h2>
+        <p class="contact-desc">歡迎隨時透過下方管道與我交流聯繫：</p>
+        <div class="contact-btn-group">
+          <a href="mailto:luanita951228@gmail.com" class="contact-pill">Email 寄信</a>
+          <a href="https://github.com" target="_blank" class="contact-pill">GitHub</a>
+          <a href="https://www.instagram.com/zhen.12.28/" target="_blank" class="contact-pill">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer: 頁尾 -->
+  <footer>
+    <div class="container text-center">
+      <p class="copyright">&copy; 2026 盧冠蓁. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- CSS 點擊放大燈箱 (Lightbox 彈窗) -->
+  <div id="zoom1" class="lightbox-modal">
+    <a href="#experience" class="lightbox-bg"></a>
+    <div class="lightbox-content">
+      <a href="#experience" class="lightbox-close">&times;</a>
+      <img src="image/exp1.jpg" alt="馬來西亞國際發明展大圖">
+      <p>馬來西亞國際發明展 — 參展現場紀錄</p>
+    </div>
+  </div>
+
+  <div id="zoom2" class="lightbox-modal">
+    <a href="#experience" class="lightbox-bg"></a>
+    <div class="lightbox-content">
+      <a href="#experience" class="lightbox-close">&times;</a>
+      <img src="image/exp3.jpg" alt="韓國世界發明創新競賽大圖">
+      <p>韓國世界發明創新競賽 — 參展紀錄</p>
+    </div>
+  </div>
+
+  <div id="zoom3" class="lightbox-modal">
+    <a href="#experience" class="lightbox-bg"></a>
+    <div class="lightbox-content">
+      <a href="#experience" class="lightbox-close">&times;</a>
+      <img src="image/exp6.jpg" alt="臺中市政府暑期工讀大圖">
+      <p>臺中市政府 暑期工讀 — 實習紀錄</p>
+    </div>
+  </div>
+
+  <div id="zoom4" class="lightbox-modal">
+    <a href="#experience" class="lightbox-bg"></a>
+    <div class="lightbox-content">
+      <a href="#experience" class="lightbox-close">&times;</a>
+      <img src="image/exp8.jpg" alt="112年資訊月商用簡報技巧組大圖">
+      <p>112年資訊月 商用簡報技巧組 — 全國團體第一</p>
+    </div>
+  </div>
+
+</body>
+</html>
